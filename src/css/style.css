@@ -19,8 +19,14 @@ body {
 }
 
 form {
-    width: 500px;
+    width: 700px;
     margin-top: 30px;
+    background-color: #00E5B0;
+    text-align: center;
+}
+
+#itemForm {
+    width: 500px;
 }
 
 .rodape {
