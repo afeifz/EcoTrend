@@ -3,12 +3,35 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgba(213, 200, 180, 0.734);
+    background-color: #d5c8b4bb;
 }
 
 :root {
-    --cor-verde: #00E5B0;
+    --cor-verde: #00FF85;
 }
+
+.main-produtos .card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#bodyCard {
+    background-color: black;
+    color: var(--cor-verde);
+    border-radius:  5px 5px 10px 10px;
+}
+
+.card  {
+    border-radius: 10px;
+}
+.card-img-top img {
+    border-radius: 10px;
+}
+
 
 .nav {
     justify-content: space-between;
@@ -44,7 +67,7 @@ form {
 }
 
 #botaoForm {
-    background: #00E5B0;
+    background: var(--cor-verde);
     border: 0;
     border-radius: 8px;
     box-sizing: border-box;
@@ -59,18 +82,54 @@ form {
     display: flex;
 }
   
-#botaoForm:hover {
-    background: black;
-    color: white;
-    opacity: 0;
-    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+@-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
   }
 
 .rodape {
-    background-color: #00E5B0;
+    background-color: var(--cor-verde);
     text-align: center;
     margin-bottom: -16px;
     padding: 1em;
+    margin-top: 5em;
+}
+
+.main-index {
+    margin: 5em 5em;
 }
 
 .form-check {
@@ -79,4 +138,23 @@ form {
 
 .main-contato {
     height: 100vh;
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "aside section"
+    "aside section"
+    ;
+}
+.filtros-categorias {
+    grid-area: aside;
+}
+
+.botao-add {
+    border: none;
+    background-color: var(--cor-verde);
+    border-radius: 10px;
+    padding: 8px;
 }
