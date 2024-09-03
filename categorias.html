@@ -13,6 +13,7 @@
     <header>
         <ul class="nav" style="background-color: black;">
             <li class="nav-item">
+                <a class="nav-link" href="./index.html">EcoTrend</a>
                 <a class="nav-link" href="./index.html"><i class="fa-solid fa-cart-plus" style="color: #74C0FC" ></i></a>
             </li>
             <div style="display: flex;" >
@@ -29,9 +30,9 @@
         </ul>
     </header>
     <section class="produtos-grid">
-        <aside>
+        <aside id="filtros-categorias">
             <h3>Categorias do produto</h3>
-            <div id="categorias-categoria">
+            <div id="filtro-categoria">
                 <h4>Categorias</h4>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -40,35 +41,110 @@
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                     Produtos de higiene
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Marca
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Utensílios
                     </label>
                 </div>
             </div>
-            <div id="categorias-precos">
+            <div id="filtro-precos">
                 <h4>Faixa de preço</h4>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Até R$100
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Até R$99
                     </label>
-
+                </div>    
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    R$100 ~ R$ 199
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    R$200 ~ R$ 399
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Acima de R$ 400
+                    </label>
+                </div>
+            </div>
+            <div id="filtro-marcas">
+                <h4>Marcas</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Boticario
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Yuool
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Tramontina
+                    </label>
+                </div>
             </div>
         </aside>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        
+        <div id="tenis1">
+            <div class="card">
+                <img class="card-img-top" src="./src/img/teniscinza.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Urban High'S</h5>
+                    <p class="card-text"><small class="text-muted">R$ 450,00</small></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="tenis2">
+            <div class="card">
+                <img class="card-img-top" src="./src/img/tenisazul.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Ocean One'S Reciclado</h5>
+                    <p class="card-text"><small class="text-muted">R$ 250,00</small></p>
+                </div>
+            </div>
+        </div>
 
+        <div id="utensilios1">
+            <div class="card">
+                <img class="card-img-top" src="./src/img/escovas.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Escovas de dentes de bambu</h5>
+                    <p class="card-text"><small class="text-muted">R$ 40,00</small></p>
+                </div>
+            </div>
+        </div>
 
+        <div id="utensilios2">
+            <div class="card">
+                <img class="card-img-top" src="./src/img/colheres.webp" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">CONJUNTO UTENSÍLIOS 6 PEÇAS DE BAMBU</h5>
+                    <p class="card-text">O conjunto possui 5 utensílios e suporte organização em bambu de alta qualidade resistência e praticidade em sua cozinha ou espaço gourmet</p>
+                    <p class="card-text"><small class="text-muted">R$ 25,00</small></p>
+                </div>
+            </div>
+        </div>
 
+        <div id="utensilios3"></div>
 
     </section>
 
