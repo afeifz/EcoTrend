@@ -41,13 +41,27 @@
     padding: 8px;
 }
 
+.botao-add-esgotado {
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botao-add-esgotado:hover {
+    background-color: darkred;
+    cursor: not-allowed;
+    transform: scale(1.05);
+}
+
+
 .botao-add:hover {
     background-color: black;
     color: var(--cor-verde);
     transition: .7s;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 600px) {
 
     #tenis {
         grid-area: tenis;
@@ -72,6 +86,35 @@
         "aside aside"
         "tenis tenis"
         "bambu bambu"
+        ;
+    }
+
+}
+
+@media (min-width:575px) and (max-width:1000px) {
+    #tenis {
+        grid-area: tenis;
+    }
+
+    #bambu {
+        grid-area: bambu;
+    }
+
+    #filtros-categorias {
+        width: 15rem;
+    }
+
+    .card-group {
+        width: 30rem;
+    }
+
+
+    .produtos-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "aside"
+        "tenis"
+        "bambu"
         ;
     }
 
