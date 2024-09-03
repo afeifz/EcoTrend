@@ -11,7 +11,6 @@ body {
 }
 
 
-
 .nav {
     justify-content: space-between;
     padding: 16px;
@@ -38,21 +37,3 @@ body {
     margin: 5em 5em;
 }
 
-.produtos-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "aside section"
-    "aside section"
-    ;
-}
-.filtros-categorias {
-    grid-area: aside;
-}
-
-.botao-add {
-    border: none;
-    background-color: var(--cor-verde);
-    border-radius: 10px;
-    padding: 8px;
-}

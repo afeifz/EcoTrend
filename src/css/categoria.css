@@ -1,0 +1,32 @@
+.produtos-grid {
+    display: grid;
+    align-items: center;
+    margin: 4em 4em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "aside section"
+    "aside section"
+    ;
+    
+}
+
+.card-group {
+    column-gap: 2em;
+    margin-top: 2em;
+}
+
+.card {
+    padding: 0.5em;
+}
+
+.filtros-categorias {
+    grid-area: aside;
+}
+
+.botao-add {
+    border: none;
+    background-color: var(--cor-verde);
+    border-radius: 10px;
+    padding: 8px;
+}
+
