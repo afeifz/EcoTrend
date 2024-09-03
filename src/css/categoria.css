@@ -54,7 +54,6 @@
     transform: scale(1.05);
 }
 
-
 .botao-add:hover {
     background-color: black;
     color: var(--cor-verde);
