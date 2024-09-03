@@ -10,6 +10,8 @@
     
 }
 
+#filtr
+
 .card-group {
     column-gap: 2em;
     margin-top: 2em;
@@ -30,3 +32,8 @@
     padding: 8px;
 }
 
+.botao-add:hover {
+    background-color: black;
+    color: var(--cor-verde);
+    transition: .7s;
+}

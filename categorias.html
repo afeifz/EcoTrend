@@ -32,7 +32,7 @@
             </div>
         </ul>
     </header>
-    <section class="produtos-grid">
+    <section class="produtos-grid" id="filtroAside">
         <aside class="filtros-categorias" id="filtros-categorias">
             <div id="filtro-categoria">
                 <h4>Categorias</h4>
@@ -59,17 +59,17 @@
                 <h4>Faixa de preço</h4>
                 <input type="range">
                 <div class="form-row">
-                    <div class="form-group col-md-2">
+                    <div class="col-md-1">
                       <label>Min</label>
-                      <input class="form-control" placeholder="R$0" type="number">
+                      <input class="form-control" placeholder="0" type="number">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-1">
                       <label>Max</label>
-                      <input class="form-control" placeholder="R$1,000" type="number">
+                      <input class="form-control" placeholder="1000" type="number">
                     </div>
                     </div>
             </div>
-            <div id="filtro-marcas">
+            <div id="filtro-marcas" style="margin-top: 10px;">
                 <h4>Marcas</h4>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value=""id="flexCheckDefault">
