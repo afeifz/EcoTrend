@@ -17,3 +17,9 @@
 .card-img-top img {
     border-radius: 10px;
 }
+
+#bodyCard {
+    background-color: black;
+    color: var(--cor-verde);
+    border-radius:  5px 5px 10px 10px;
+}

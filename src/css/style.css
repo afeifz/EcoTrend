@@ -11,12 +11,6 @@ body {
 }
 
 
-#bodyCard {
-    background-color: black;
-    color: var(--cor-verde);
-    border-radius:  5px 5px 10px 10px;
-}
-
 
 .nav {
     justify-content: space-between;
@@ -42,14 +36,6 @@ body {
 
 .main-index {
     margin: 5em 5em;
-}
-
-.form-check {
-    margin-left: 20px;
-}
-
-.main-contato {
-    height: 100vh;
 }
 
 .produtos-grid {

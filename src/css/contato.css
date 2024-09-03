@@ -76,3 +76,11 @@ form {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
+
+.form-check {
+    margin-left: 20px;
+}
+
+.main-contato {
+    height: 100vh;
+}
