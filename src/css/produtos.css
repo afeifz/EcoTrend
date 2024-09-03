@@ -1,3 +1,7 @@
+:root {
+    --cor-verde: #00FF85;
+}
+
 .main-produtos .card-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
