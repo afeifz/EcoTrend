@@ -2,6 +2,13 @@
 
 **EcoTrend** é um projeto de e-commerce focado em produtos sustentáveis, onde os usuários podem explorar diferentes categorias de produtos, visualizar detalhes e realizar compras online. O site é composto por quatro páginas principais: **Home**, **Categorias**, **Produtos** e **Contato**.
 
+
+## Integrantes
+- Mohamed Afif Smaili [RM: 554445]
+- Juan Francisco Alves Muradas [RM: 555541] 
+- Heitor Anderson Prestes de Oliveira Filho [RM: 554823]
+- Lucca Ribeiro Cardinale [RM: 556668]
+
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
