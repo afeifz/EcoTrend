@@ -37,3 +37,7 @@ body {
     margin: 5em 5em;
 }
 
+.tirar-links {
+    text-decoration: none;
+    color: black;
+}
