@@ -8,6 +8,7 @@
 - Juan Francisco Alves Muradas [RM: 555541] 
 - Heitor Anderson Prestes de Oliveira Filho [RM: 554823]
 - Lucca Ribeiro Cardinale [RM: 556668]
+- Ahmad Jaafar [RM: 97927]
 
 ## Estrutura do Projeto
 
